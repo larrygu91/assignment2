@@ -12,10 +12,8 @@ class Assignment2:
 
     @staticmethod
     def checkGoodString(string: str):
-        return (len(string) >= 9 and string[0].isalpha()
-                and string[0].islower() and string.isdigit()
-                and len(string) == 1 and string.isdigit()
+        return (len(string) >= 9 and string[0].isalpha() and string[0].islower() and string.isdigit() and
+                len(string) == 1 and string.isdigit())
 
     #@staticmethod
     #def connectTcp(host: str, port: int):
-       # return
